@@ -1,0 +1,43 @@
+body {
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+    background : url(bg.gif) no-repeat;
+    background-size:cover;
+}
+.h3{
+    color: rgb(119, 56, 56);
+}
+.rag{
+    background-color: gray;
+    color: lightcyan;
+}
+.rag1{
+    color: red;
+}
+.rag2{
+    color: red;
+    
+}
+.rag3{
+    color: red;
+    margin-top: 10px;
+
+}
+.rag4{
+    color: navy;
+    background-color: beige;
+}
+.custom-col{
+    animation: fadeInUp 1s ease-in-out;
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
